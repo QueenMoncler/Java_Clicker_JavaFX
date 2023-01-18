@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="mainwindow" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="534.0" prefWidth="444.0" style="-fx-background-color: AA74DA;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fxprogtest.HelloController">
+   <children>
+      <AnchorPane layoutX="-3.0" layoutY="152.0" prefHeight="391.0" prefWidth="455.0" style="-fx-background-color: #6F23B0;">
+         <children>
+            <Button fx:id="buttonScore" layoutX="110.0" mnemonicParsing="false" prefHeight="393.0" prefWidth="345.0" style="-fx-background-color: #771BC9;" textFill="#5603b5" />
+            <AnchorPane prefHeight="393.0" prefWidth="105.0" style="-fx-background-color: #DAB917;">
+               <children>
+                  <Text layoutX="14.0" layoutY="336.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Клик" wrappingWidth="38.13671875">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="ClickScore" layoutX="63.0" layoutY="334.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="45.13671875" />
+                  <Button fx:id="ButtonImprove" layoutX="-1.0" layoutY="73.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="109.0" style="-fx-background-color: #B59A12;" text="Улучшить " />
+                  <Text layoutX="25.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Улучшение" />
+                  <Text fx:id="Price" layoutX="40.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                  <Button fx:id="store_button" layoutX="16.0" layoutY="161.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="81.0" style="-fx-background-color: #B59A12;" text="Магазин" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="Score" layoutX="107.0" layoutY="23.0" prefHeight="107.0" prefWidth="298.0" promptText="0" style="-fx-background-color: AA74DA;" text="0.00000">
+         <font>
+            <Font name="Consolas" size="45.0" />
+         </font>
+      </TextField>
+      <Label fx:id="NicknameLabel" layoutX="14.0" layoutY="14.0" prefHeight="18.0" prefWidth="102.0" />
+   </children>
+</AnchorPane>
